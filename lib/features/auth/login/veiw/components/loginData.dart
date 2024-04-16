@@ -23,9 +23,9 @@ class login extends StatelessWidget {
           children: [
             ClipRRect(
                 borderRadius: BorderRadius.circular(50),
-                child: Image(
+                child: const Image(
                   image: AssetImage(
-                      'lib\myImages\7fbdb5aa5eba053f8a2317eb36a9b43a.jpg'),
+                      'assets/images/7fbdb5aa5eba053f8a2317eb36a9b43a.jpg'),
                   height: 100,
                   width: 100,
                 ))

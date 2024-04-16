@@ -22,8 +22,8 @@ class reqirdata extends StatelessWidget {
           children: [
             ClipRRect(
                 borderRadius: BorderRadius.circular(50),
-                child: Image(
-                  image: AssetImage('lib/myImages/dop.jpg'),
+                child:const Image(
+                  image: AssetImage('assets/images/dop.jpg'),
                   height: 100,
                   width: 100,
                 ))
